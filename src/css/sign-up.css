@@ -1,0 +1,223 @@
+.sign-up-section {
+  background: black;
+}
+.sign-up-title {
+  font-family: DM Sans;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: -0.04em;
+  margin-bottom: 20px;
+}
+.sign {
+  color: #fff;
+}
+.up {
+  color: #bea69e;
+}
+.sign-up-text {
+  width: 295px;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.28;
+  letter-spacing: -0.02em;
+  color: #fff;
+  margin-right: 40px;
+  margin-bottom: 41px;
+}
+
+.sign-up-form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.sign-up-label,
+.sign-up-input {
+  margin-bottom: 8px;
+}
+.sign-up-submit-button-container {
+  margin-top: 40px;
+}
+.sign-up-under-btn-txt {
+  color: rgba(255, 255, 255, 0.5);
+  font-family: DM Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.33;
+  max-width: 100%;
+}
+
+.sign-up-privacy-policy {
+  text-decoration-line: underline;
+}
+.sign-up-button {
+  display: flex;
+  width: 335px;
+  height: 48px;
+  padding: 14px 127px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+  background: var(--white, #fff);
+  margin-bottom: 20px;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.55;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.sign-up-input,
+.sign-up-textarea {
+  width: 335px;
+  height: 46px;
+  background-color: black;
+  color: #fff;
+  padding: 14px;
+  margin-bottom: 8px;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+.sign-up-textarea {
+  height: 112px;
+}
+.sign-up-image-container {
+  display: none;
+}
+
+/*768px*/
+
+@media screen and (min-width: 768px) {
+  .sign-up-title {
+    width: 159px;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 1.12;
+    letter-spacing: -0.04em;
+  }
+  .sign-up-text {
+    width: 480px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.25;
+    letter-spacing: -0.02em;
+  }
+  .sign-up-input,
+  .sign-up-textarea {
+    width: 480px;
+    height: 60px;
+    margin-bottom: 14px;
+    padding: 20px;
+  }
+  .sign-up-textarea {
+    height: 119px;
+  }
+  .sign-up-button {
+    width: 479px;
+    height: 60px;
+    padding: 16px 216px;
+    margin-bottom: 21px;
+  }
+
+  .sign-up-image-container {
+    display: none;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .sign-up-cont {
+    max-width: 1280px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .main-sign-up-container {
+    flex: 1;
+    background-color: black;
+    width: 480px;
+    margin-right: 60px;
+  }
+
+  .sign-up-image-container {
+    flex: 1;
+    width: 540px;
+    height: 540px;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+  }
+  .rectangle-first {
+    width: 180px;
+    height: 288px;
+    flex-shrink: 0;
+    border-radius: 1000px;
+    background: hsl(15, 20%, 68%);
+    align-self: flex-end;
+    margin-right: 10px;
+    position: relative;
+  }
+
+  .sign-up-first-image {
+    width: 150px;
+    height: 142px;
+    flex-shrink: 0;
+    position: absolute;
+    bottom: 62px;
+  }
+  .rectangle-second {
+    width: 340px;
+    height: 540px;
+    flex-shrink: 0;
+    border-radius: 1000px;
+    background: #1d1d1d;
+    position: relative;
+  }
+
+  .sign-up-second-image {
+    width: 240px;
+    height: 296px;
+    flex-shrink: 0;
+    position: absolute;
+    left: 50px;
+    right: 50px;
+    top: 156px;
+    bottom: 88px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .sign-up-cont {
+    max-width: 1440px;
+  }
+  .main-sign-up-container {
+    margin-right: 100px;
+  }
+  .sign-up-image-container {
+    width: 560px;
+    height: 540px;
+  }
+  .rectangle-first {
+    width: 190px;
+    margin-right: 20px;
+  }
+  .sign-up-first-image {
+    width: 163px;
+    height: 154px;
+    bottom: 62px;
+  }
+  .rectangle-second {
+    width: 350px;
+    height: 540px;
+  }
+  .sign-up-second-image {
+    width: 254px;
+    height: 313px;
+    left: 48px;
+    right: 48px;
+    top: 139px;
+    bottom: 88px;
+  }
+}
